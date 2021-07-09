@@ -20,9 +20,12 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >
                         <Nav className="mr-2">
-                            <Nav.Link style={{marginRight:'2px', marginLeft:'60px', color:'#dadada', fontSize:'18px'}} href="#home">Home</Nav.Link>
-                            <Nav.Link style={{marginRight:'2px', marginLeft:'66px' , color:'#dadada', fontSize:'18px'}} href="#projects">Projects</Nav.Link>
-                            <Nav.Link style={{marginRight:'150px', marginLeft:'66px', color:'#dadada', fontSize:'18px'}} href="#resume">Resume</Nav.Link>
+                            <Nav.Link style={{marginRight:'2px', marginLeft:'60px', color:'#dadada', fontSize:'18px'}} 
+                            href="#home">Home</Nav.Link>
+                            <Nav.Link style={{marginRight:'2px', marginLeft:'66px' , color:'#dadada', fontSize:'18px'}}
+                             href="#projects">Projects</Nav.Link>
+                            <Nav.Link style={{marginRight:'150px', marginLeft:'66px', color:'#dadada', fontSize:'18px'}}
+                             href="#resume">Resume</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>
