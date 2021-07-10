@@ -55,6 +55,23 @@
   }
 }
 
+.toggle {
+  opacity: 0;
+  animation: toggle 0.3s linear forwards;
+  animation-delay: 0.9s;
+}
+
+@keyframes toggle {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 /* Navbar Animation */
 
 *:after {

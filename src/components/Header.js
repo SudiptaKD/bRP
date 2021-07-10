@@ -19,7 +19,7 @@ const Header = () => {
                         </Row>
                     </LinkContainer>
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" style={{margin:'0px auto'}} />
+                    <Navbar.Toggle className="toggle" aria-controls="basic-navbar-nav" style={{margin:'0px auto'}} />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end"  >
                         <Nav style={{margin:'0px auto'}}>
                             <Nav.Link id="n" style={{margin:'0px  auto', color:'#dadada', fontSize:'18px'}} 
