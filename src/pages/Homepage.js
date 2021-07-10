@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Image,Card, Button } from 'react-bootstrap';
+import { Row, Col, Image,Card } from 'react-bootstrap';
 
 // importing Images
 import Avatar from '../img/avatar.svg'
@@ -38,15 +38,16 @@ const Homepage = () => {
                         <Col sm={12} xl={12} >
                             <Card className='p-1 rounded text-center p-3 ' 
                             style={{ border: 'none', backgroundColor:'#2e2e35', margin:'0px auto' }}>
-                                <a className="button" href = {Resume} target = "_blank"><button style={{margin:'0px auto'}}>Resume</button> </a>
+                                <a className="button" href = {Resume} target = "_blank" rel="noopener noreferrer"><button style={{margin:'0px auto'}}>Resume</button> </a>
                                 </Card>    
                         </Col>
-                        <Col className="contacts" style={{padding:'20px 10px', margin:'0px auto', display:'flex', justifyContent:'center'}} sm={12} xl ={12}>
-                            <a id="link" target="_blank" href="https://www.linkedin.com/in/sudiptaKD">
+                        <Col className="contacts" style={{padding:'20px 10px', margin:'0px auto', display:'flex', justifyContent:'center'}}
+                         sm={12} xl ={12}>
+                            <a id="link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sudiptaKD">
                                 <strong>Linkdin</strong></a>
-                            <a id="link" target="_blank" href="https://www.facebook.com/sudiptakd/">
+                            <a id="link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sudiptakd/">
                                 <strong>Facebook</strong></a>
-                            <a id="link" target="_blank" 
+                            <a id="link" target="_blank" rel="noopener noreferrer"
                             href="https://mail.google.com/mail/u/0/?fs=1&to=sudiptakumardam@gmail.com&tf=cm">
                                 <strong>Gmail</strong></a>
                         </Col>
