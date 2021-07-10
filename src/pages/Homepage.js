@@ -41,7 +41,7 @@ const Homepage = () => {
                                 <a className="button" href = {Resume} target = "_blank" rel="noopener noreferrer"><button style={{margin:'0px auto'}}>Resume</button> </a>
                                 </Card>    
                         </Col>
-                        <Col className="contacts" style={{padding:'20px 10px', margin:'0px auto', display:'flex', justifyContent:'center'}}
+                        <Col className="contacts" style={{padding:'2px 10px', margin:'0px auto', display:'flex', justifyContent:'center'}}
                          sm={12} xl ={12}>
                             <a id="link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sudiptaKD">
                                 <strong>Linkdin</strong></a>
