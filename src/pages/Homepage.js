@@ -94,8 +94,10 @@ const Homepage = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
-                            <Card.Link target="_blank" href="https://sudiptakd.github.io/Pokedex/">Live Page</Card.Link>
-                            <Card.Link target="_blank" href="https://github.com/SudiptaKD/Pokedex">Code</Card.Link>
+                            <Card.Link target="_blank" href="https://sudiptakd.github.io/Pokedex/"
+                            id="link2">Live Page</Card.Link>
+                            <Card.Link target="_blank" href="https://github.com/SudiptaKD/Pokedex"
+                            id="link2">Code</Card.Link>
                         </Card.Body>
                         </Card>
                 </Col>
@@ -111,8 +113,10 @@ const Homepage = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
-                            <Card.Link target="_blank" href="https://avatar-the-last-airbinder.netlify.app/">Live Page</Card.Link>
-                            <Card.Link target="_blank" href="https://github.com/SudiptaKD/Avatar-The-Last-Airbinder">Code</Card.Link>
+                            <Card.Link target="_blank" href="https://avatar-the-last-airbinder.netlify.app/"
+                            id="link2">Live Page</Card.Link>
+                            <Card.Link target="_blank" href="https://github.com/SudiptaKD/Avatar-The-Last-Airbinder"
+                            id="link2">Code</Card.Link>
                         </Card.Body>
                         </Card>
                 </Col>
