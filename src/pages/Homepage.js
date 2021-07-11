@@ -1,6 +1,10 @@
 import React from 'react'
 import { Row, Col, Image,Card } from 'react-bootstrap';
 
+//import component
+
+import Mouse from '../components/Mouse'
+
 // importing Images
 import Avatar from '../img/avatar.svg'
 import Js from "../img/js.svg"
@@ -16,7 +20,6 @@ import Pokedex from "../img/pokedex.jpg"
 import ATLA from "../img/avatartla.jpg"
 
 import Resume from '../files/resume.pdf'
-
 
 
 const Homepage = () => {
@@ -78,6 +81,9 @@ const Homepage = () => {
                             </Card.Text>
                             </Card.Body>
                         </Card>
+                </Col>
+                <Col className="mouseScroll" xs={12} sm={12} md={12} >
+                    <Mouse/>
                 </Col>
             </Row>
             <Row id="projects" style={{backgroundColor:'#343a40'}}>
