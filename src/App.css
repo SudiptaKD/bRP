@@ -428,6 +428,21 @@
   }
 }
 
+.mouseScroll {
+  opacity: 0;
+  animation: mouseScroll 0.4s linear forwards;
+  animation-delay: 6s;
+}
+
+@keyframes mouseScroll {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Resume Button */
 
 button {
