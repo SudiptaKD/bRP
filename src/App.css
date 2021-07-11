@@ -214,11 +214,11 @@
     opacity: 0;
   }
   70% {
-    transform: scale(1);
+    transform: scale(0.9);
     opacity: 0.8;
   }
   100% {
-    transform: scale(0.7);
+    transform: scale(0.6);
     opacity: 1;
   }
 }
@@ -242,7 +242,7 @@
 .avatar {
   opacity: 0;
   animation: avatar 0.7s linear forwards;
-  animation-delay: 1.2s;
+  animation-delay: 1.4s;
   margin-left: 10px;
   color: #e4aa48;
 }
@@ -468,4 +468,30 @@ button:hover {
 #link2:hover {
   color: #e0caa3;
   transform: translateY(5px);
+}
+
+/* Navbar Responsive */
+
+@media (min-width: 700px) {
+  .toggle {
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 700px) {
+  .toggle {
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 990px) {
+  .nav {
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 990px) {
+  .nav {
+    margin: 0px auto;
+  }
 }

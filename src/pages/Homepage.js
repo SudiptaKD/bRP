@@ -23,7 +23,7 @@ const Homepage = () => {
     return (
         <div>
             <Row style={{backgroundColor:'#2e2e35', 
-                minHeight:'550px', padding:'80px 30px 20px' }} >
+                minHeight:'550px', padding:'70px 30px 20px' }} >
                 <Col xs={12} sm={12} md={6} lg={4} xl={4} >
                    <Row>
                        <h3 className="frontend" style={{ margin:'50px auto 10px', color:'#dadada'}}>
@@ -95,6 +95,7 @@ const Homepage = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
+                        <Card.Title style={{color:'#e41148',fontSize:"15px"}}>React &ensp; | &ensp; React Bootstrap | &ensp; CSS</Card.Title>
                             <Card.Link target="_blank" href="https://sudiptakd.github.io/Pokedex/"
                             id="link2">Live Page</Card.Link>
                             <Card.Link target="_blank" href="https://github.com/SudiptaKD/Pokedex"
@@ -107,13 +108,14 @@ const Homepage = () => {
                     style={{ width: '22rem',backgroundColor:'#2e2e35',border:'none', margin:'0px auto' }}>
                         <Card.Img variant="top" src={ATLA} />
                         <Card.Body>
-                            <Card.Title style={{color:'#e4aa48',fontSize:"20px"}}>Card Title</Card.Title>
+                            <Card.Title style={{color:'#e4aa48',fontSize:"20px"}}>Avatar The Last Airbinder</Card.Title>
                             <Card.Text style={{color:'#dadada'}}>
                             Showing Avatar: The Last Airbinder characters.
                              Also you can search through the characters from the API. 
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
+                        <Card.Title style={{color:'#e41148',fontSize:"15px"}}>React &ensp; | &ensp; CSS</Card.Title>
                             <Card.Link target="_blank" href="https://avatar-the-last-airbinder.netlify.app/"
                             id="link2">Live Page</Card.Link>
                             <Card.Link target="_blank" href="https://github.com/SudiptaKD/Avatar-The-Last-Airbinder"
