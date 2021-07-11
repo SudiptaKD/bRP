@@ -513,3 +513,21 @@ button:hover {
     padding: 0px 30px 20px;
   }
 }
+
+/* ScrollBar */
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e4aa48;
+  border-radius: 7px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e4aa48;
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dadada;
+}

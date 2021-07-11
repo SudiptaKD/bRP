@@ -8,7 +8,7 @@ import Resume from '../files/resume.pdf'
 const Header = () => {
     return (
         <header>
-            <Navbar id="home" expand="lg" style={{minHeight:'90px', backgroundColor:'#2e2e35', padding:'20px 10px 0px 10px'}}
+            <Navbar id="home" expand="lg" style={{minHeight:'15vh', backgroundColor:'#2e2e35', padding:'20px 10px 0px 10px'}}
              className=" justify-content-between" collapseOnSelect>
                 <Navbar.Brand style={{marginLeft:'30px',  color:'#dadada'}}>
                     <LinkContainer to="/">

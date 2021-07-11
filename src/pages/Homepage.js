@@ -23,7 +23,7 @@ const Homepage = () => {
     return (
         <div>
             <Row className="mainRow" style={{backgroundColor:'#2e2e35', 
-                minHeight:'550px' }} >
+                minHeight:'85vh' }} >
                 <Col xs={12} sm={12} md={6} lg={4} xl={4} >
                    <Row>
                        <h3 className="frontend" style={{ margin:'50px auto 10px', color:'#dadada'}}>
