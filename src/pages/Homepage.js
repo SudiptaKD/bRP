@@ -22,8 +22,8 @@ import Resume from '../files/resume.pdf'
 const Homepage = () => {
     return (
         <div>
-            <Row style={{backgroundColor:'#2e2e35', 
-                minHeight:'550px', padding:'70px 30px 20px' }} >
+            <Row className="mainRow" style={{backgroundColor:'#2e2e35', 
+                minHeight:'550px' }} >
                 <Col xs={12} sm={12} md={6} lg={4} xl={4} >
                    <Row>
                        <h3 className="frontend" style={{ margin:'50px auto 10px', color:'#dadada'}}>

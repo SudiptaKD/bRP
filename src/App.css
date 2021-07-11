@@ -484,6 +484,12 @@ button:hover {
   }
 }
 
+@media (max-width: 484px) {
+  .toggle {
+    margin-top: 20px;
+  }
+}
+
 @media (min-width: 990px) {
   .nav {
     margin-right: 80px;
@@ -493,5 +499,17 @@ button:hover {
 @media (max-width: 990px) {
   .nav {
     margin: 0px auto;
+  }
+}
+
+@media (min-width: 767px) {
+  .mainRow {
+    padding: 80px 30px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainRow {
+    padding: 0px 30px 20px;
   }
 }

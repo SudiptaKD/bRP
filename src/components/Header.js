@@ -8,7 +8,7 @@ import Resume from '../files/resume.pdf'
 const Header = () => {
     return (
         <header>
-            <Navbar id="home" expand="lg" style={{minHeight:'100px', backgroundColor:'#2e2e35', padding:'30px 10px 0px 10px'}}
+            <Navbar id="home" expand="lg" style={{minHeight:'90px', backgroundColor:'#2e2e35', padding:'20px 10px 0px 10px'}}
              className=" justify-content-between" collapseOnSelect>
                 <Navbar.Brand style={{marginLeft:'30px',  color:'#dadada'}}>
                     <LinkContainer to="/">
@@ -20,7 +20,7 @@ const Header = () => {
                     </LinkContainer>
                     </Navbar.Brand>
                     <Navbar.Toggle className="toggle" aria-controls="basic-navbar-nav" 
-                        style={{margin:'',border:'2px solid #e4aa48'}} />
+                        style={{border:'2px solid #e4aa48'}} />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end"  >
                         <Nav className="nav">
                             <Nav.Link id="n" style={{margin:'0px  auto', color:'#dadada', fontSize:'18px'}} 
