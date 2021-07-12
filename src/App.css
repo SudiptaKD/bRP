@@ -604,7 +604,7 @@ button:hover {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #e4aa48 transparent transparent transparent;
 }
 
 .skill1:hover .tooltiptext {
