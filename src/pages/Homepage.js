@@ -1,11 +1,13 @@
 import React from 'react'
 import { Row, Col, Image,Card } from 'react-bootstrap';
+import '../App.css'
 
 //import component
 
 import Mouse from '../components/Mouse'
 
 // importing Images
+// import Avatar from '../img/ravatar.png'
 import Avatar from '../img/avatar.svg'
 import Js from "../img/js.svg"
 import Sass from "../img/sass.svg"
@@ -68,15 +70,33 @@ const Homepage = () => {
                             <Card.Title className="skills" style={{color:'#e4aa48',fontSize:"22px"}}>Skills</Card.Title>
                             <Card.Text style={{color:'#dadada'}}>
                                 <Row xl={3} lg={3} md={3} sm={3} xs={3} >
-                                    <Col className="skill1"><Image src={HTML} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded /></Col>
-                                    <Col className="skill2"><Image src={CSS} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded /></Col>
-                                    <Col className="skill3"><Image src={Js} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded /></Col>
-                                    <Col className="skill4"><Image src={Bs} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded /></Col>
-                                    <Col className="skill5"><Image src={Sass} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded /></Col>
-                                    <Col className="skill6"><Image src={RJs} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded /></Col>
-                                    <Col className="skill7"><Image src={RB} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded /></Col>
-                                    <Col className="skill8"><Image src={MUi} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded /></Col>
-                                    <Col className="skill9"><Image src={Git} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded /></Col>
+                                    <Col className="skill1"><Image src={HTML} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded />
+                                        <span className="tooltiptext">HTML5</span>
+                                    </Col>
+                                    <Col className="skill2"><Image src={CSS} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded />
+                                        <span className="tooltiptext">CSS3</span>
+                                        </Col>
+                                    <Col className="skill3"><Image src={Js} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded />
+                                        <span className="tooltiptext">JavaScript </span>
+                                    </Col>
+                                    <Col className="skill4"><Image src={Bs} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded />
+                                        <span className="tooltiptext">Bootstrap</span>
+                                    </Col>
+                                    <Col className="skill5"><Image src={Sass} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded />
+                                        <span className="tooltiptext">Sass</span>
+                                    </Col>
+                                    <Col className="skill6"><Image src={RJs} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded />
+                                        <span className="tooltiptext">React</span>
+                                    </Col>
+                                    <Col className="skill7"><Image src={RB} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded />
+                                        <span className="tooltiptext">React-Bootstrap</span>
+                                    </Col>
+                                    <Col className="skill8"><Image src={MUi} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded />
+                                        <span className="tooltiptext">Material-UI</span>
+                                    </Col>
+                                    <Col className="skill9"><Image src={Git} style={{width:'50px', height:'50px', marginTop:'13px'}} rounded />
+                                        <span className="tooltiptext">Git</span>
+                                    </Col>
                                 </Row>
                             </Card.Text>
                             </Card.Body>

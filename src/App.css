@@ -575,3 +575,79 @@ button:hover {
 ::-webkit-scrollbar-track {
   background: #dadada;
 }
+
+/* Skills Tooltip */
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #e4aa48;
+  color: #2e2e35;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 89%;
+  font-weight: 700;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.skill1:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.skill2:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.skill3:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.skill4:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.skill5:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.skill6:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.skill7:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.skill8:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.skill9:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
