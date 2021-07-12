@@ -86,7 +86,7 @@ const Homepage = () => {
                     <Mouse/>
                 </Col>
             </Row>
-            <Row id="projects" style={{backgroundColor:'#343a40'}}>
+            <Row id="projects" style={{backgroundColor:'#343a40', minHeight:'100vh'}}>
                 <Col sm={12} style={{marginTop:'25px'}}>
                     <h1 style={{textAlign:'center',color:'#e4aa48',fontSize:"30px"}} >Projects</h1>
                 </Col>
