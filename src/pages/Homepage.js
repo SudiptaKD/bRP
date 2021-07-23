@@ -122,9 +122,9 @@ const Homepage = () => {
                         </Card.Body>
                         <Card.Body>
                         <Card.Title style={{color:'#e41148',fontSize:"15px"}}>React &ensp; | &ensp; React Bootstrap | &ensp; CSS</Card.Title>
-                            <Card.Link target="_blank" href="https://sudiptakd.github.io/Pokedex/"
+                            <Card.Link target="_blank" href="https://pokemondeck.netlify.app/"
                             id="link2">Live Page</Card.Link>
-                            <Card.Link target="_blank" href="https://github.com/SudiptaKD/Pokedex"
+                            <Card.Link target="_blank" href="https://github.com/SudiptaKD/Pokemon-Deck"
                             id="link2">Code</Card.Link>
                         </Card.Body>
                         </Card>
