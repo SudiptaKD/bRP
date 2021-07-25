@@ -20,6 +20,7 @@ import MUi from "../img/material-ui.svg"
 import Git from "../img/git.svg"
 import Pokedex from "../img/pokedex.jpg"
 import ATLA from "../img/avatartla.jpg"
+import What from "../img/whatareu.jpg"
 
 import Resume from '../files/resume.pdf'
 
@@ -106,11 +107,11 @@ const Homepage = () => {
                     <Mouse/>
                 </Col>
             </Row>
-            <Row id="projects" style={{backgroundColor:'#343a40', minHeight:'100vh'}}>
+            <Row  id="projects" style={{backgroundColor:'#343a40', minHeight:'100vh'}}>
                 <Col sm={12} style={{marginTop:'25px'}}>
                     <h1 style={{textAlign:'center',color:'#e4aa48',fontSize:"30px"}} >Projects</h1>
                 </Col>
-                <Col xs={12} sm={12} md={6}  style={{marginTop:'25px', padding:'15px'}} >
+                <Col xs={12} sm={12} md={6} xl={4}  style={{marginTop:'25px', padding:'15px'}} >
                     <Card  className=' p-3 rounded text-center shadow p-3 mb-5 ' 
                     style={{ width: '22rem',backgroundColor:'#2e2e35', border:'none', margin:'0px auto' }}>
                         <Card.Img variant="top" src={Pokedex} />
@@ -129,7 +130,7 @@ const Homepage = () => {
                         </Card.Body>
                         </Card>
                 </Col>
-                <Col xs={12} sm={12} md={6} style={{marginTop:'25px', padding:'15px'}}>
+                <Col xs={12} sm={12} md={6} xl={4} style={{marginTop:'25px', padding:'15px'}}>
                     <Card  className=' p-3 rounded text-center shadow p-3 mb-5' 
                     style={{ width: '22rem',backgroundColor:'#2e2e35',border:'none', margin:'0px auto' }}>
                         <Card.Img variant="top" src={ATLA} />
@@ -145,6 +146,25 @@ const Homepage = () => {
                             <Card.Link target="_blank" href="https://avatar-the-last-airbinder.netlify.app/"
                             id="link2">Live Page</Card.Link>
                             <Card.Link target="_blank" href="https://github.com/SudiptaKD/Avatar-The-Last-Airbinder"
+                            id="link2">Code</Card.Link>
+                        </Card.Body>
+                        </Card>
+                </Col>
+                <Col xs={12} sm={12} md={6} xl={4} style={{marginTop:'25px', padding:'15px'}}>
+                    <Card  className=' p-3 rounded text-center shadow p-3 mb-5' 
+                    style={{ width: '22rem',backgroundColor:'#2e2e35',border:'none', margin:'0px auto' }}>
+                        <Card.Img variant="top" src={What} />
+                        <Card.Body>
+                            <Card.Title style={{color:'#e4aa48',fontSize:"20px"}}>A Responsive Website</Card.Title>
+                            <Card.Text style={{color:'#dadada'}}>
+                            This is just a responsive website with form functionality. Used CSS Grid, Flexbox and animation.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                        <Card.Title style={{color:'#e41148',fontSize:"15px"}}>HTML &ensp; | &ensp; CSS</Card.Title>
+                            <Card.Link target="_blank" href="https://whatareu.netlify.app/"
+                            id="link2">Live Page</Card.Link>
+                            <Card.Link target="_blank" href="https://github.com/SudiptaKD/SampleLandingPage"
                             id="link2">Code</Card.Link>
                         </Card.Body>
                         </Card>
