@@ -44,7 +44,7 @@ const Homepage = () => {
                         <Col sm={12} xl={12} >
                             <Card className='p-1 rounded text-center p-3 ' 
                             style={{ border: 'none', backgroundColor:'#2e2e35', margin:'0px auto' }}>
-                                <a className="button" href = {Resume} target = "_blank" rel="noopener noreferrer"><button style={{margin:'0px auto'}}>Resume</button> </a>
+                                <a className="button" href = {Resume} target = "_blank" rel="noopener noreferrer"><button style={{margin:'0px auto', borderRadius: '15px'}}>Resume</button> </a>
                                 </Card>    
                         </Col>
                         <Col className="contacts" style={{padding:'2px 10px', margin:'0px auto', display:'flex', justifyContent:'center'}}
