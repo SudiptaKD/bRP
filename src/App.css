@@ -461,6 +461,23 @@
   }
 }
 
+.skill12 {
+  opacity: 0;
+  animation: skill12 0.2s linear forwards;
+  animation-delay: 4.7s;
+}
+
+@keyframes skill12 {
+  0% {
+    transform: translateX(70px) rotate(360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
 .mouseScroll {
   opacity: 0;
   animation: mouseScroll 0.4s linear forwards;
@@ -641,55 +658,18 @@ button:hover {
   border-color: #e4aa48 transparent transparent transparent;
 }
 
-.skill1:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.skill2:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.skill3:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.skill4:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.skill5:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.skill6:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.skill7:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.skill8:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.skill9:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-.skill10:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-.skill11:hover .tooltiptext {
+.skill1:hover .tooltiptext,
+.skill2:hover .tooltiptext,
+.skill3:hover .tooltiptext,
+.skill4:hover .tooltiptext,
+.skill5:hover .tooltiptext,
+.skill6:hover .tooltiptext,
+.skill7:hover .tooltiptext,
+.skill8:hover .tooltiptext,
+.skill9:hover .tooltiptext,
+.skill10:hover .tooltiptext,
+.skill11:hover .tooltiptext,
+.skill12:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
 }

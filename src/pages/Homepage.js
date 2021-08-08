@@ -18,6 +18,7 @@ import CSS from "../img/css3.svg"
 import RB from "../img/RB.svg"
 import MUi from "../img/material-ui.svg"
 import TW from "../img/tailwindcss.svg"
+import Bulma from "../img/bulma.svg"
 import Postman from "../img/postman.svg"
 import Git from "../img/git.svg"
 import Pokedex from "../img/pokedex.jpg"
@@ -100,10 +101,13 @@ const Homepage = () => {
                                     <Col className="skill9"><Image src={TW} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">Tailwind CSS</span>
                                     </Col>
-                                    <Col className="skill10"><Image src={Git} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill10"><Image src={Bulma} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                        <span className="tooltiptext">Bulma</span>
+                                    </Col>
+                                    <Col className="skill11"><Image src={Git} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">Git</span>
                                     </Col>
-                                    <Col className="skill11"><Image src={Postman} style={{width:'44px', height:'44px', marginTop:'11px'}} rounded />
+                                    <Col className="skill12"><Image src={Postman} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">Postman</span>
                                     </Col>
                                 </Row>
