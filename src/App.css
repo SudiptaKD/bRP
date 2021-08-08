@@ -427,6 +427,39 @@
     opacity: 1;
   }
 }
+.skill10 {
+  opacity: 0;
+  animation: skill10 0.2s linear forwards;
+  animation-delay: 4.3s;
+}
+
+@keyframes skill10 {
+  0% {
+    transform: translateX(70px) rotate(360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.skill11 {
+  opacity: 0;
+  animation: skill11 0.2s linear forwards;
+  animation-delay: 4.5s;
+}
+
+@keyframes skill11 {
+  0% {
+    transform: translateX(70px) rotate(360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+    opacity: 1;
+  }
+}
 
 .mouseScroll {
   opacity: 0;
@@ -649,6 +682,14 @@ button:hover {
 }
 
 .skill9:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.skill10:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.skill11:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
 }
