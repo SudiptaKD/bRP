@@ -166,7 +166,7 @@ const Homepage = () => {
                         </Card.Body>
                         <Card.Body>
                         <Card.Title style={{color:'#e41148',fontSize:"15px"}}>Redux &ensp;|&ensp; React |&ensp;React Router |&ensp;React Bootstrap</Card.Title>
-                            <Card.Link target="_blank" href="https://redux-shoppingcart-react.netlify.app/cart"
+                            <Card.Link target="_blank" href="https://redux-shoppingcart-react.netlify.app/"
                             id="link2">Live Page</Card.Link>
                             <Card.Link target="_blank" href="https://github.com/SudiptaKD/Redux-Shopping-Cart"
                             id="link2">Code</Card.Link>
