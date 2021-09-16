@@ -478,6 +478,23 @@
   }
 }
 
+.skill13 {
+  opacity: 0;
+  animation: skill13 0.2s linear forwards;
+  animation-delay: 4.9s;
+}
+
+@keyframes skill13 {
+  0% {
+    transform: translateX(70px) rotate(360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
 .mouseScroll {
   opacity: 0;
   animation: mouseScroll 0.4s linear forwards;
@@ -574,7 +591,7 @@ button:hover {
 
 @media (min-width: 767px) {
   .mainRow {
-    padding: 80px 30px 15px 30px;
+    padding: 80px 30px 10px 30px;
   }
 }
 
@@ -592,7 +609,7 @@ button:hover {
 
 @media (max-width: 1366px) {
   .mouseScroll {
-    margin: 0px auto -55px;
+    margin: 0px auto -40px;
     padding: 15px;
   }
 }
@@ -669,7 +686,8 @@ button:hover {
 .skill9:hover .tooltiptext,
 .skill10:hover .tooltiptext,
 .skill11:hover .tooltiptext,
-.skill12:hover .tooltiptext {
+.skill12:hover .tooltiptext,
+.skill13:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
 }

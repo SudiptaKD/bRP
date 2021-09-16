@@ -21,8 +21,10 @@ import TW from "../img/tailwindcss.svg"
 import Bulma from "../img/bulma.svg"
 import Postman from "../img/postman.svg"
 import Git from "../img/git.svg"
+import Redux from "../img/redux.svg"
 import Pokedex from "../img/pokedex.jpg"
 import ATLA from "../img/avatartla.jpg"
+import RSC from "../img/redux-shopping-cart.jpg"
 
 import foogleDrive1 from "../img/f1.JPG"
 import foogleDrive2 from "../img/f2.JPG"
@@ -80,42 +82,45 @@ const Homepage = () => {
                         <Card.Body>
                             <Card.Title className="skills" style={{color:'#e4aa48',fontSize:"22px"}}>Skills</Card.Title>
                             <Card.Text style={{color:'#dadada'}}>
-                                <Row xl={3} lg={3} md={3} sm={3} xs={3} >
-                                    <Col className="skill1"><Image src={HTML} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                <Row xl={3} lg={3} md={4} sm={4} xs={3} >
+                                    <Col className="skill1"><Image src={HTML} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">HTML5</span>
                                     </Col>
-                                    <Col className="skill2"><Image src={CSS} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill2"><Image src={CSS} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">CSS3</span>
                                         </Col>
-                                    <Col className="skill3"><Image src={Js} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill3"><Image src={Js} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">JavaScript </span>
                                     </Col>
-                                    <Col className="skill4"><Image src={Bs} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
-                                        <span className="tooltiptext">Bootstrap</span>
-                                    </Col>
-                                    <Col className="skill5"><Image src={Sass} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
-                                        <span className="tooltiptext">Sass</span>
-                                    </Col>
-                                    <Col className="skill6"><Image src={RJs} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill4"><Image src={RJs} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">React</span>
                                     </Col>
-                                    <Col className="skill7"><Image src={RB} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill5"><Image src={Redux} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
+                                        <span className="tooltiptext">Redux</span>
+                                    </Col>
+                                    <Col className="skill6"><Image src={Bs} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
+                                        <span className="tooltiptext">Bootstrap</span>
+                                    </Col>
+                                    <Col className="skill7"><Image src={RB} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">React-Bootstrap</span>
                                     </Col>
-                                    <Col className="skill8"><Image src={MUi} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill8"><Image src={MUi} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">Material-UI</span>
                                     </Col>
-                                    <Col className="skill9"><Image src={TW} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill9"><Image src={TW} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">Tailwind CSS</span>
                                     </Col>
-                                    <Col className="skill10"><Image src={Bulma} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill10"><Image src={Bulma} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">Bulma</span>
                                     </Col>
-                                    <Col className="skill11"><Image src={Git} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill11"><Image src={Git} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">Git</span>
                                     </Col>
-                                    <Col className="skill12"><Image src={Postman} style={{width:'48px', height:'48px', marginTop:'11px'}} rounded />
+                                    <Col className="skill12"><Image src={Postman} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
                                         <span className="tooltiptext">Postman</span>
+                                    </Col>
+                                    <Col className="skill13"><Image src={Sass} style={{width:'47px', height:'47px', marginTop:'11px'}} rounded />
+                                        <span className="tooltiptext">Sass</span>
                                     </Col>
                                 </Row>
                             </Card.Text>
@@ -145,6 +150,25 @@ const Homepage = () => {
                             <Card.Link target="_blank" href="https://pokemondeck.netlify.app/"
                             id="link2">Live Page</Card.Link>
                             <Card.Link target="_blank" href="https://github.com/SudiptaKD/Pokemon-Deck"
+                            id="link2">Code</Card.Link>
+                        </Card.Body>
+                        </Card>
+                </Col>
+                <Col xs={12} sm={12} md={6} xl={4}  style={{marginTop:'25px', padding:'15px'}} >
+                    <Card  className=' p-3 rounded text-center shadow p-3 mb-5 ' 
+                    style={{ width: '22rem',backgroundColor:'#2e2e35', border:'none', margin:'0px auto' }}>
+                        <Card.Img variant="top" src={RSC} style={{height:'242px'}} />
+                        <Card.Body>
+                            <Card.Title style={{color:'#e4aa48',fontSize:"20px"}}>Redux Shopping Cart</Card.Title>
+                            <Card.Text style={{color:'#dadada'}}>
+                            Using redux to make a shopping cart, Add and remove item, total price and item features avaiable
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Body>
+                        <Card.Title style={{color:'#e41148',fontSize:"15px"}}>Redux &ensp;|&ensp; React |&ensp;React Router |&ensp;React Bootstrap</Card.Title>
+                            <Card.Link target="_blank" href="https://redux-shoppingcart-react.netlify.app/cart"
+                            id="link2">Live Page</Card.Link>
+                            <Card.Link target="_blank" href="https://github.com/SudiptaKD/Redux-Shopping-Cart"
                             id="link2">Code</Card.Link>
                         </Card.Body>
                         </Card>
@@ -209,7 +233,7 @@ const Homepage = () => {
                         </Card.Body>
                         </Card>
                 </Col>
-                <Col xs={12} sm={12} md={6} xl={4} style={{marginTop:'25px', padding:'15px'}}>
+                <Col xs={12} sm={12} md={6} xl={12} style={{marginTop:'25px', padding:'15px'}}>
                     <Card  className=' p-3 rounded text-center shadow p-3 mb-5' 
                     style={{ width: '22rem',backgroundColor:'#2e2e35',border:'none', margin:'0px auto' }}>
                         <Card.Img variant="top" src={ATLA} />
@@ -221,7 +245,7 @@ const Homepage = () => {
                             </Card.Text>
                         </Card.Body>
                         <Card.Body>
-                        <Card.Title style={{color:'#e41148',fontSize:"15px"}}>React &ensp; | &ensp; CSS</Card.Title>
+                        <Card.Title style={{color:'#e41148',fontSize:"15px"}}>React &ensp;| &ensp;Axios | &ensp;CSS</Card.Title>
                             <Card.Link target="_blank" href="https://avatar-the-last-airbinder.netlify.app/"
                             id="link2">Live Page</Card.Link>
                             <Card.Link target="_blank" href="https://github.com/SudiptaKD/Avatar-The-Last-Airbinder"
