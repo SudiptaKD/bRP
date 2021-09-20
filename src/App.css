@@ -609,7 +609,7 @@ button:hover {
 
 @media (max-width: 1366px) {
   .mouseScroll {
-    margin: 0px auto 40px;
+    margin: 0px auto -40px;
     padding: 15px;
   }
 }
