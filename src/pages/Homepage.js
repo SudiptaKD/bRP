@@ -49,7 +49,7 @@ const Homepage = () => {
                    </Row>
                    <Row>
                       <strong className='frontend-text' style={{ margin:'10px auto', color:'#dadada', textAlign:'center'}}>
-                           Familiarizing myself with Web. Currently working on React JS skills as a newbie </strong>
+                           Familiarizing myself with Web. Trying Next.js with TypeScript and preparing to expand more.</strong>
                    </Row>
                    <br/>
                    <Row >
